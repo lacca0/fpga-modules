@@ -1,0 +1,5 @@
+#! /bin/bash
+verilator -Wall --trace -cc addr_gen.v --exe bench.cpp   
+make -C obj_dir -f Vaddr_gen.mk Vaddr_gen
+./obj_dir/Vaddr_gen
+gtkwave waveform.vcd
