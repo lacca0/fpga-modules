@@ -1,4 +1,4 @@
-# fpga-modules
+# fpga address generator
 
 ![image](https://github.com/lacca0/fpga-modules/assets/20230553/3f185fea-8650-4e17-856c-f80a7d980e6a)
 
